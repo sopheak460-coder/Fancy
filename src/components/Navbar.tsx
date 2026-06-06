@@ -39,7 +39,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center flex-shrink-0">
             <Image
-              src="/logo.png"
+              src="/Logo.png"
               alt="Fancy Daily Shop"
               width={110}
               height={36}
