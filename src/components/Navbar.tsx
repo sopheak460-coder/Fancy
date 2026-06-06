@@ -34,16 +34,16 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 bg-white border-b border-stone-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-28">
 
           {/* Logo */}
           <Link href="/" className="flex items-center flex-shrink-0">
             <Image
               src="/Logo.png"
               alt="Fancy Daily Shop"
-              width={110}
-              height={36}
-              className="h-9 w-auto object-contain"
+              width={330}
+              height={108}
+              className="h-24 w-auto object-contain"
               priority
             />
           </Link>

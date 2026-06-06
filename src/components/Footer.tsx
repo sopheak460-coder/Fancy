@@ -13,9 +13,9 @@ export default function Footer() {
               <Image
                 src="/Logo.png"
                 alt="Fancy Daily Shop"
-                width={110}
-                height={36}
-                className="h-8 w-auto object-contain invert"
+                width={330}
+                height={108}
+                className="h-24 w-auto object-contain invert"
               />
             </div>
             <p className="text-sm leading-relaxed max-w-xs text-stone-400">
