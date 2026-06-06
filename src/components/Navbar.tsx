@@ -37,7 +37,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-28">
 
           {/* Logo */}
-          <Link href="/" className="flex items-center flex-shrink-0">
+          <Link href="/" className="flex items-center gap-4 flex-shrink-0">
             <Image
               src="/Logo.png"
               alt="Fancy Daily Shop"
@@ -46,6 +46,17 @@ export default function Navbar() {
               className="h-24 w-auto object-contain"
               priority
             />
+            {/* Divider */}
+            <span className="hidden sm:block w-px h-10 bg-stone-200" />
+            {/* Brand text */}
+            <div className="hidden sm:flex flex-col justify-center gap-0.5">
+              <span className="text-[10px] font-medium tracking-[0.4em] text-stone-400 uppercase">
+                Fancy
+              </span>
+              <span className="text-base font-bold tracking-[0.22em] text-black uppercase leading-none">
+                Daily Store
+              </span>
+            </div>
           </Link>
 
           {/* Desktop nav links */}
