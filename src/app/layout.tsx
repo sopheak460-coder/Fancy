@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import "./globals.css";
 import { CartProvider } from "@/context/CartContext";
+import { WishlistProvider } from "@/context/WishlistContext";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -24,11 +25,13 @@ export default function RootLayout({
   return (
     <html lang="en" className={geistSans.variable}>
       <body className="min-h-screen flex flex-col bg-white text-stone-900 antialiased">
-        <CartProvider>
-          <Navbar />
-          <main className="flex-1">{children}</main>
-          <Footer />
-        </CartProvider>
+        <WishlistProvider>
+          <CartProvider>
+            <Navbar />
+            <main className="flex-1">{children}</main>
+            <Footer />
+          </CartProvider>
+        </WishlistProvider>
       </body>
     </html>
   );
