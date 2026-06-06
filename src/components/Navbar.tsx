@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
@@ -37,10 +38,14 @@ export default function Navbar() {
 
           {/* Logo */}
           <Link href="/" className="flex items-center flex-shrink-0">
-            <span className="text-xl font-bold tracking-[0.15em] text-black uppercase">Fancy</span>
-            <span className="ml-2 text-xs font-medium tracking-[0.2em] text-stone-400 uppercase hidden sm:block">
-              Daily Shop
-            </span>
+            <Image
+              src="/logo.png"
+              alt="Fancy Daily Shop"
+              width={110}
+              height={36}
+              className="h-9 w-auto object-contain"
+              priority
+            />
           </Link>
 
           {/* Desktop nav links */}

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
@@ -9,8 +10,13 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="mb-3">
-              <span className="text-xl font-bold tracking-[0.15em] text-white uppercase">Fancy</span>
-              <span className="ml-2 text-xs font-medium tracking-[0.2em] text-stone-400 uppercase">Daily Shop</span>
+              <Image
+                src="/logo.png"
+                alt="Fancy Daily Shop"
+                width={110}
+                height={36}
+                className="h-8 w-auto object-contain invert"
+              />
             </div>
             <p className="text-sm leading-relaxed max-w-xs text-stone-400">
               Premium everyday essentials curated for the modern lifestyle.
