@@ -7,17 +7,27 @@ const categories = [
   {
     name: "Leather Bags",
     tagline: "Timeless craftsmanship",
-    image: "https://picsum.photos/seed/leather-cat/800/600",
+    image: "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&h=600&fit=crop&q=80",
   },
   {
     name: "Backpacks",
     tagline: "Built for adventure",
-    image: "https://picsum.photos/seed/backpack-cat/800/600",
+    image: "https://images.unsplash.com/photo-1581605405669-fcdf81165afa?w=800&h=600&fit=crop&q=80",
   },
   {
     name: "Tote Bags",
     tagline: "Effortless everyday carry",
-    image: "https://picsum.photos/seed/tote-cat/800/600",
+    image: "https://images.unsplash.com/photo-1597484661643-2f5fef640dd1?w=800&h=600&fit=crop&q=80",
+  },
+  {
+    name: "Crossbody Bags",
+    tagline: "Hands-free style",
+    image: "https://images.unsplash.com/photo-1584917865442-e0e72c007872?w=800&h=600&fit=crop&q=80",
+  },
+  {
+    name: "Clutches & Mini Bags",
+    tagline: "Small but mighty",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop&q=80",
   },
 ];
 
@@ -29,7 +39,7 @@ export default function HomePage() {
       {/* Hero */}
       <section className="relative h-[85vh] min-h-[520px] bg-black overflow-hidden flex items-center justify-center">
         <Image
-          src="https://picsum.photos/seed/fancy-hero/1600/900"
+          src="https://images.unsplash.com/photo-1445205170230-053b83016050?w=1600&h=900&fit=crop&q=80"
           alt="Fancy Daily Shop — new collection"
           fill
           className="object-cover opacity-35"
@@ -71,7 +81,7 @@ export default function HomePage() {
           <h2 className="text-3xl font-bold text-black tracking-tight">Shop by Category</h2>
           <div className="mt-2 w-12 h-px bg-black mx-auto" />
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
           {categories.map((cat) => (
             <Link
               key={cat.name}

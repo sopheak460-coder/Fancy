@@ -5,7 +5,7 @@ import { useSearchParams } from "next/navigation";
 import { products } from "@/data/products";
 import ProductCard from "@/components/ProductCard";
 
-const CATEGORIES = ["All", "Leather Bags", "Backpacks", "Tote Bags"] as const;
+const CATEGORIES = ["All", "Leather Bags", "Backpacks", "Tote Bags", "Crossbody Bags", "Clutches & Mini Bags"] as const;
 type Category = (typeof CATEGORIES)[number];
 
 const SORT_OPTIONS = [
