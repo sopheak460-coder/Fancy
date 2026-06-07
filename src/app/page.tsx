@@ -22,12 +22,12 @@ const categories = [
   {
     name: "Crossbody Bags",
     tagline: "Hands-free style",
-    image: "https://images.unsplash.com/photo-1584917865442-e0e72c007872?w=800&h=600&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1571273260782-bab4699dde20?w=800&h=600&fit=crop&q=80",
   },
   {
     name: "Clutches & Mini Bags",
     tagline: "Small but mighty",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1486308510493-aa64833637bc?w=800&h=600&fit=crop&q=80",
   },
 ];
 

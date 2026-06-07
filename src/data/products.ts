@@ -61,7 +61,7 @@ export const products: Product[] = [
     category: "Backpacks",
     description:
       "Clean lines meet smart storage. Fits a 16-inch laptop, with a refined ballistic nylon exterior and a concealed anti-theft zipper across the back panel.",
-    image: "https://images.unsplash.com/photo-1547949639-6c9f5b02e5d2?w=600&h=600&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1655303219938-3a771279c801?w=600&h=600&fit=crop&q=80",
     featured: false,
   },
 
@@ -73,7 +73,7 @@ export const products: Product[] = [
     category: "Tote Bags",
     description:
       "Heavy-duty 12oz canvas tote built for groceries, farmers markets, or beach days. Reinforced handles, a flat base, and a roomy open main compartment.",
-    image: "https://images.unsplash.com/photo-1597484661643-2f5fef640dd1?w=600&h=600&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1574365569389-a10d488ca3fb?w=600&h=600&fit=crop&q=80",
     featured: false,
   },
   {
@@ -93,7 +93,7 @@ export const products: Product[] = [
     category: "Tote Bags",
     description:
       "Simple, durable, and eco-friendly. Made from 100% organic cotton with a reinforced bottom gusset. The ideal low-fuss daily carry for errands or the office.",
-    image: "https://images.unsplash.com/photo-1527522883525-97119bfce82d?w=600&h=600&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1630381260512-e3fe55c11973?w=600&h=600&fit=crop&q=80",
     featured: false,
   },
 
@@ -105,7 +105,7 @@ export const products: Product[] = [
     category: "Crossbody Bags",
     description:
       "Compact and effortlessly chic. This mini crossbody holds your essentials — phone, cards, keys — with an adjustable gold-tone chain strap that dresses up any outfit.",
-    image: "https://images.unsplash.com/photo-1584917865442-e0e72c007872?w=600&h=600&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1571273260782-bab4699dde20?w=600&h=600&fit=crop&q=80",
     featured: true,
   },
   {
@@ -115,7 +115,7 @@ export const products: Product[] = [
     category: "Crossbody Bags",
     description:
       "A polished structured crossbody with a magnetic flap closure, interior card slots, and a removable shoulder strap. Goes seamlessly from the office to dinner.",
-    image: "https://images.unsplash.com/photo-1591561954555-7d1cbe6eb5e5?w=600&h=600&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1544511196-1646449a253b?w=600&h=600&fit=crop&q=80",
     featured: false,
   },
   {
@@ -125,7 +125,7 @@ export const products: Product[] = [
     category: "Crossbody Bags",
     description:
       "A sleek quilted bag with an interlocking chain strap — the modern take on a timeless silhouette. Interior zip pocket keeps small items secure.",
-    image: "https://images.unsplash.com/photo-1594938298739-57cdc0e43a7b?w=600&h=600&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1569484221992-2a453658fff3?w=600&h=600&fit=crop&q=80",
     featured: true,
   },
 
@@ -137,7 +137,7 @@ export const products: Product[] = [
     category: "Clutches & Mini Bags",
     description:
       "Luxuriously soft velvet clutch with a gold-tone frame clasp. The perfect companion for weddings, galas, or any evening you want to make an impression.",
-    image: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=600&h=600&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1486308510493-aa64833637bc?w=600&h=600&fit=crop&q=80",
     featured: false,
   },
   {
@@ -147,7 +147,7 @@ export const products: Product[] = [
     category: "Clutches & Mini Bags",
     description:
       "A sleek envelope-style clutch in buttery soft leather. Interior card slots and a wrist strap make it practical for evenings when you travel light.",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=600&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1507831041068-539748fc3c3b?w=600&h=600&fit=crop&q=80",
     featured: true,
   },
   {
@@ -157,7 +157,7 @@ export const products: Product[] = [
     category: "Clutches & Mini Bags",
     description:
       "A dainty top-handle bag that packs a style punch. Structured satchel silhouette with a detachable shoulder strap — carry it in hand or across the body.",
-    image: "https://images.unsplash.com/photo-1571504211814-7ef0a132d42f?w=600&h=600&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1589363358751-ab05797e5629?w=600&h=600&fit=crop&q=80",
     featured: false,
   },
 ];
