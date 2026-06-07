@@ -11,6 +11,7 @@ export const products: Product[] = [
       "A timeless tote crafted from full-grain Italian leather. Spacious main compartment, interior slip pockets, and sturdy hand-stitched handles — the perfect work-to-weekend bag.",
     image: "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600&h=600&fit=crop&q=80",
     featured: true,
+    badge: "Best Seller",
   },
   {
     id: "2",
@@ -21,16 +22,19 @@ export const products: Product[] = [
       "A sophisticated briefcase in premium vegetable-tanned leather. Padded laptop sleeve fits up to 15 inches, with organised compartments for documents and accessories.",
     image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&h=600&fit=crop&q=80",
     featured: true,
+    badge: "New",
   },
   {
     id: "3",
     name: "Vintage Leather Shoulder Bag",
     price: 159.99,
+    originalPrice: 199.99,
     category: "Leather Bags",
     description:
       "A vintage-inspired shoulder bag with antique brass hardware and soft pebbled leather. Adjustable crossbody strap makes it as versatile as it is stylish.",
     image: "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=600&h=600&fit=crop&q=80",
     featured: false,
+    badge: "Sale",
   },
 
   // ── BACKPACKS ──────────────────────────────────────────────────
@@ -43,6 +47,7 @@ export const products: Product[] = [
       "Sleek and lightweight at 20L, built for city life. Padded laptop sleeve, hidden anti-theft back pocket, and water-resistant recycled nylon fabric.",
     image: "https://images.unsplash.com/photo-1581605405669-fcdf81165afa?w=600&h=600&fit=crop&q=80",
     featured: true,
+    badge: "Best Seller",
   },
   {
     id: "5",
@@ -53,16 +58,19 @@ export const products: Product[] = [
       "Engineered for the modern traveler at 40L. TSA-friendly clamshell opening, packing organisation, external USB port, and ergonomic shoulder straps.",
     image: "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=600&h=600&fit=crop&q=80",
     featured: true,
+    badge: "New",
   },
   {
     id: "6",
     name: "Minimalist Laptop Backpack",
     price: 149.99,
+    originalPrice: 179.99,
     category: "Backpacks",
     description:
       "Clean lines meet smart storage. Fits a 16-inch laptop, with a refined ballistic nylon exterior and a concealed anti-theft zipper across the back panel.",
     image: "https://images.unsplash.com/photo-1655303219938-3a771279c801?w=600&h=600&fit=crop&q=80",
     featured: false,
+    badge: "Sale",
   },
 
   // ── TOTE BAGS ──────────────────────────────────────────────────
@@ -107,6 +115,7 @@ export const products: Product[] = [
       "Compact and effortlessly chic. This mini crossbody holds your essentials — phone, cards, keys — with an adjustable gold-tone chain strap that dresses up any outfit.",
     image: "https://images.unsplash.com/photo-1571273260782-bab4699dde20?w=600&h=600&fit=crop&q=80",
     featured: true,
+    badge: "New",
   },
   {
     id: "11",
@@ -127,6 +136,7 @@ export const products: Product[] = [
       "A sleek quilted bag with an interlocking chain strap — the modern take on a timeless silhouette. Interior zip pocket keeps small items secure.",
     image: "https://images.unsplash.com/photo-1569484221992-2a453658fff3?w=600&h=600&fit=crop&q=80",
     featured: true,
+    badge: "Limited",
   },
 
   // ── CLUTCHES & MINI BAGS ──────────────────────────────────────
@@ -149,6 +159,7 @@ export const products: Product[] = [
       "A sleek envelope-style clutch in buttery soft leather. Interior card slots and a wrist strap make it practical for evenings when you travel light.",
     image: "https://images.unsplash.com/photo-1507831041068-539748fc3c3b?w=600&h=600&fit=crop&q=80",
     featured: true,
+    badge: "New",
   },
   {
     id: "15",
